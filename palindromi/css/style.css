@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+.row {
+  padding: 30px;
+  margin-bottom: 30px;
+  background: lightgrey;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.dati-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#risultato {
+  text-align: center;
+}
+
+/* bottoni */
+.btn_input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.btn_click {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
